@@ -1,17 +1,13 @@
-import { CgProfile } from "react-icons/cg";
-
 const NavBar = () => {
   return (
     <>
-      <div className="flex justify-around py-3 px-1 items-center text-white sticky top-0 bg-[#0c040e] z-10 scroll-smooth">
-        <div className="font-bold flex items-center gap-1 sm:text-[1.5rem] text-[0.9rem]">
-          <div>
-            <span className="text-purple-600">&lt;</span>
-            <span> Harsh</span>
-            <span className="text-purple-600"> / </span>
-            <span>Tayal </span>
-            <span className="text-purple-600">&gt;</span>
-          </div>
+      <div className="flex flex-wrap justify-around py-3 gap-3 px-10 items-center text-white sticky top-0 bg-[#0c040e] z-10 scroll-smooth">
+        <div className="font-bold flex items-center gap-1 sm:text-[1.5rem]">
+          <span className="text-purple-600">&lt;</span>
+          <span> Harsh</span>
+          <span className="text-purple-600"> / </span>
+          <span>Tayal </span>
+          <span className="text-purple-600">&gt;</span>
         </div>
 
         <div>
