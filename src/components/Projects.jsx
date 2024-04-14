@@ -3,6 +3,13 @@ import ProjectsCard from "./ProjectsCard";
 const Projects = () => {
   const projects = [
     {
+      title: "Password Manager",
+      img: "pwd",
+      github: "https://github.com/Harshtayal2005/Password-manager-mongo",
+      demo: "https://password-manager-by-ht.netlify.app",
+      tools: ["React JS", "Tailwind", "Express JS", "MongoDB", "Node JS"],
+    },
+    {
       title: "Tic Tac Toe Game",
       img: "tic-tac-toe",
       github:
@@ -26,13 +33,7 @@ const Projects = () => {
       demo: "https://zomato-clone-by-ht.netlify.app",
       tools: ["HTML", "CSS"],
     },
-    {
-      title: "Password Manager",
-      img: "pwd",
-      github: "https://github.com/Harshtayal2005/Password-manager-mongo",
-      demo: "https://password-manager-by-ht.netlify.app",
-      tools: ["React JS", "Tailwind", "Express JS", "MongoDB", "Node JS"],
-    },
+    
     {
       title: "Rock Paper Scissors Game",
       img: "rps",
