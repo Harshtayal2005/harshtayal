@@ -58,6 +58,7 @@ const Projects = () => {
         <h1 className="text-white text-[3rem] font-bold" id="project">
           Projects
         </h1>
+        <h2 className="text-white text-[2rem] -mt-10 font-bold">(Dekstop View)</h2>
         <div className="flex flex-wrap justify-center">
           {projects.map((items) => (
             <ProjectsCard info={items} />
