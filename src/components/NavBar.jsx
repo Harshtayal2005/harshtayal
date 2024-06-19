@@ -27,18 +27,18 @@ const NavBar = () => {
               <li className="hover:text-orange-700">Github</li>
             </a>
             <a href="#about" onClick={() => handleMenuClick()}>
-              <li className="hover:text-orange-700 hover:cursor-pointer">
+              <li className="hover:text-orange-700">
                 About
               </li>
             </a>
             <a href="#skill" onClick={() => handleMenuClick()}>
-              <li className="hover:text-orange-700 hover:cursor-pointer">
+              <li className="hover:text-orange-700">
                 Skills
               </li>
             </a>
 
             <a href="#project" onClick={() => handleMenuClick()}>
-              <li className="hover:text-orange-700 hover:cursor-pointer">
+              <li className="hover:text-orange-700">
                 Projects
               </li>
             </a>
@@ -56,14 +56,20 @@ const NavBar = () => {
           <div className="hidden sm:flex">
             <ul className="flex sm:gap-5 gap-2 lg:text-[1.5rem] sm:text-[1.3rem]">
               <a href="#about">
-                <li>About</li>
+              <li className="hover:text-orange-700">
+                About
+              </li>
               </a>
 
               <a href="#skill">
-                <li>Skills</li>
+              <li className="hover:text-orange-700">
+                Skills
+              </li>
               </a>
               <a href="#project">
-                <li>Projects</li>
+              <li className="hover:text-orange-700">
+                Projects
+              </li>
               </a>
             </ul>
           </div>
