@@ -45,7 +45,7 @@ const Intro = () => {
             please feel free to send me a message.
           </p>
           <a
-            href="https://drive.google.com/file/d/1xwKuYZKdSoDWqQ94q6i8G6bLtOH-d1s3/view?usp=share_link"
+            href="https://drive.google.com/file/d/1zA3_g52dWGA4CXWOHx1EhmlqEjhP8Ii2/view?usp=share_link"
             target="_blank"
           >
             <button className="rounded-3xl text-2xl bg-gradient-to-r from-fuchsia-600 to-purple-600 py-5 px-16 font-bold ">
