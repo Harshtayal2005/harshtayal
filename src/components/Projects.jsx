@@ -33,7 +33,7 @@ const Projects = () => {
       demo: "https://zomato-clone-by-ht.netlify.app",
       tools: ["HTML", "CSS"],
     },
-    
+
     {
       title: "Rock Paper Scissors Game",
       img: "rps",
@@ -55,10 +55,15 @@ const Projects = () => {
   return (
     <>
       <div className="flex flex-col items-center gap-8 mt-20 px-10 scroll-smooth">
-        <h1 className="text-white text-[3rem] font-bold" id="project">
+        <h1
+          className="text-white lg:text-[3rem] text-[2rem] sm:text-[2.4rem] font-bold"
+          id="project"
+        >
           Projects
         </h1>
-        <h2 className="text-white text-[2rem] -mt-10 font-bold">(Dekstop View)</h2>
+        <h2 className="text-white sm:text-[2rem] text-[1.2rem] -mt-10 font-bold">
+          (Dekstop View)
+        </h2>
         <div className="flex flex-wrap justify-center">
           {projects.map((items) => (
             <ProjectsCard info={items} />

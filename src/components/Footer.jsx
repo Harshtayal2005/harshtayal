@@ -9,9 +9,11 @@ const Footer = () => {
   return (
     <>
       <div className="h-[20rem] bg-gradient-to-r from-stone-900 to-purple-900 clip-footer mt-24 flex flex-col items-center justify-center">
-        <h1 className="text-[2rem] text-gray-200 font-bold">Harsh Tayal</h1>
+        <h1 className="text-[1.5rem] sm:text-[2rem] text-gray-200 font-bold">
+          Harsh Tayal
+        </h1>
         <div className="mt-5 mb-5">
-          <ul className="flex gap-8 text-[1.7rem] text-gray-100">
+          <ul className="flex gap-8 text-[1.2rem] sm:text-[1.7rem] text-gray-100">
             <a href="#about">
               <li>About</li>
             </a>
@@ -27,20 +29,20 @@ const Footer = () => {
 
         <div className="flex gap-8">
           <a href="https://www.facebook.com/harsh.tayal.965/" target="_blank">
-            <FaFacebookSquare className="text-white" size={24} />
+            <FaFacebookSquare className="text-white" size={20} sm:size={24} />
           </a>
           <a href="https://twitter.com/HarshTa04671764" target="_blank">
-            <FaTwitter className="text-white" size={24} />
+            <FaTwitter className="text-white" size={20} sm:size={24} />
           </a>
 
           <a
             href="https://linkedin.com/in/harsh-tayal-83ab83253"
             target="_blank"
           >
-            <FaLinkedin className="text-white" size={24} />
+            <FaLinkedin className="text-white" size={20} sm:size={24} />
           </a>
           <a href="https://www.instagram.com/harshtayal2005/" target="_blank">
-            <FaInstagram className="text-white" size={24} />
+            <FaInstagram className="text-white" size={20} sm:size={24} />
           </a>
         </div>
 
@@ -50,7 +52,7 @@ const Footer = () => {
           </h1>
         </div>
 
-        <div className="flex justify-center items-center gap-1 bottom-0 mt-6">
+        <div className="flex flex-wrap justify-center items-center gap-1 bottom-0 mt-6">
           <FaRegCopyright className="text-white" />
           <p className="text-white">2024 Harsh Tayal. All Rights Reserved</p>
         </div>

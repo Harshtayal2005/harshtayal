@@ -4,19 +4,24 @@ const Intro = () => {
   return (
     <>
       <div
-        className="py-24 px-40 flex lg:justify-between flex-col-reverse items-center lg:flex-row scroll-smooth lg:gap-6"
+        className="py-24 px-40 lg:px-[9rem] flex lg:justify-between flex-col-reverse items-center lg:flex-row scroll-smooth lg:gap-6"
         id="about"
       >
         <div className=" text-white lg:w-[40rem] flex flex-col items-center lg:items-start">
-          <h1 className="sm:text-[3rem] text-[2rem] font-serif ">Hi, I am</h1>
-          <h1 className="sm:text-[3rem] text-[2rem] -mt-3 font-serif">
+          <h1 className="lg:text-[3rem] sm:text-[2.4rem] text-[2rem] font-serif ">
+            Hi, I am
+          </h1>
+          <h1 className="lg:text-[3rem] sm:text-[2.4rem] text-[2rem] -mt-3 font-serif">
             Harsh Tayal
           </h1>
           <div>
-            <span className="text-[1.3rem] sm:text-[2rem] font-serif">
+            <div className="hidden sm:flex justify-center text-[1.3rem] sm:text-[2rem] sm:w-[30rem] font-serif lg:justify-start lg:inline">
               I am a{" "}
-            </span>
-            <span>
+            </div>
+            <div className="flex sm:hidden text-[1.3rem] font-serif w-[10rem] justify-center">
+              I am a
+            </div>
+            <div className="flex justify-center w-[10rem] sm:w-[30rem] lg:justify-start lg:inline">
               <TypeAnimation
                 className="sm:text-[2rem] font-serif text-[1.3rem] text-[#D74E09]"
                 sequence={[
@@ -30,7 +35,7 @@ const Intro = () => {
                 speed={50}
                 repeat={Infinity}
               />
-            </span>
+            </div>
           </div>
 
           <p className="text-[1.2rem] mt-4 mb-10 text-gray-400 font-serif text-center lg:text-start">
@@ -48,19 +53,19 @@ const Intro = () => {
             href="https://drive.google.com/file/d/1zA3_g52dWGA4CXWOHx1EhmlqEjhP8Ii2/view?usp=share_link"
             target="_blank"
           >
-            <button className="rounded-3xl text-2xl bg-gradient-to-r from-fuchsia-600 to-purple-600 py-5 px-16 font-bold ">
+            <button className="rounded-3xl lg:text-2xl text-[1.2rem] bg-gradient-to-r from-fuchsia-600 to-purple-600 sm:py-5 sm:px-16 py-3 px-14 font-bold ">
               Check Resume
             </button>
           </a>
         </div>
 
         <div
-          className=" sm:h-[30rem] sm:w-[30rem] h-[20rem] w-[20rem] overflow-hidden border-2 border-purple-600 rounded-full
+          className=" lg:h-[27rem] lg:w-[27rem] sm:h-[24rem] sm:w-[24rem] h-[16rem] w-[16rem] overflow-hidden border-2 border-purple-600 rounded-full
           border-5 mb-10"
         >
           {/* must be in public folder  */}
           <img
-            src="./images/niku.jpg"
+            src="images/niku.jpg"
             alt="harsh pic"
             className=" h-full w-full"
           />

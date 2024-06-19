@@ -16,7 +16,10 @@ const Skills = () => {
   return (
     <>
       <div className="flex flex-col items-center gap-8 scroll-smooth">
-        <h1 className="text-white text-[3rem] font-bold" id="skill">
+        <h1
+          className="text-white lg:text-[3rem] text-[2rem] sm:text-[2.4rem] font-bold"
+          id="skill"
+        >
           Skills
         </h1>
         <div className="flex flex-wrap justify-center">
