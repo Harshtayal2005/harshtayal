@@ -3,6 +3,13 @@ import ProjectsCard from "./ProjectsCard";
 const Projects = () => {
   const projects = [
     {
+      title: "Graph Visualizer",
+      img: "Graph",
+      github: "https://github.com/Harshtayal2005/Graph-Visualizer",
+      demo: "https://graph-visualizer-ochre.vercel.app",
+      tools: ["React JS", "Tailwind"],
+    },
+    {
       title: "Password Manager",
       img: "pwd",
       github: "https://github.com/Harshtayal2005/Password-manager-mongo",
