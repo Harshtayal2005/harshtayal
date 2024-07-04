@@ -10,6 +10,13 @@ const Projects = () => {
       tools: ["React JS", "Tailwind"],
     },
     {
+      title: "CineView",
+      img: "Cineview",
+      github: "https://github.com/himanshusyuni/CineView",
+      demo: "https://cine-view-client.vercel.app/",
+      tools: ["React JS", "Tailwind", "Express JS", "MongoDB", "Node JS"],
+    },
+    {
       title: "Password Manager",
       img: "pwd",
       github: "https://github.com/Harshtayal2005/Password-manager-mongo",
