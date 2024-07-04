@@ -53,7 +53,7 @@ const Intro = () => {
             href="https://drive.google.com/file/d/1j7PuvWpNeoQarh5ee1uuVHGlhg4ke24f/view?usp=share_link"
             target="_blank"
           >
-            <button className="rounded-3xl lg:text-2xl text-[1.2rem] bg-gradient-to-r from-fuchsia-600 to-purple-600 sm:py-5 sm:px-16 py-3 px-14 font-bold ">
+            <button className="rounded-3xl lg:text-2xl text-[1.2rem] hover:bg-gradient-to-r from-fuchsia-800 to-purple-900 sm:py-5 sm:px-16 py-3 px-14 font-bold bg-purple-800">
               Check Resume
             </button>
           </a>
